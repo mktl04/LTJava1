@@ -12,6 +12,9 @@ public class SP {
     private String TenSP;
     private double GiaSP;
     
+    public SP(){
+        
+    }
     public SP(String TenSP, double GiaSP){
         this.TenSP = TenSP;
         this.GiaSP = GiaSP;
@@ -21,6 +24,16 @@ public class SP {
     }
     public double getGiaSP(){
         return GiaSP;
+    }  
+    public void setTenSP(String TenSP){
+        this.TenSP = TenSP;
+    }
+    public void setGiaSP(double GiaSP){
+        this.GiaSP = GiaSP;
+    }
+    @Override
+    public String toString(){
+        return "SanPham" + "Ten: " + TenSP + "Gia: " + GiaSP;
     }
 }
 
