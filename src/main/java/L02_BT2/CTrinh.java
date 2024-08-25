@@ -45,11 +45,11 @@ public class CTrinh {
                 case 3: 
                     xuatSinhVienGioi(dssv);
                 break;
-                case 4: {
+                case 4: 
                     xapSep();
-                }
-                case 5: {
-                }
+                break;
+                case 5: 
+                break;
                 default: System.out.print("Khong co chuc nang nay. Moi Nhap lai");
             }
             System.out.print("\nBan co muon tiep tuc khong (Y/N): ");
